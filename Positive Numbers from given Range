@@ -1,0 +1,15 @@
+#print all positive numbers in a range.
+#Your Input and output must look something like this
+#Input: list1 = [12, -7, 5, 64, -14] Output: 12, 5, 64 
+#Input: list2 = [12, 14, -95, 3] Output: [12, 14, 3]
+
+list1 = [12, -7, 5, 64, -14]
+list2 = [12, 14, -95, 3]
+
+output1 = [num for num in list1 if num>0]
+print("Input of List 1 = ", list1)
+print("Output of List 1 = ", output1)
+
+output2 = [num for num in list2 if num>0]
+print("Input of List 2 = ", list2)
+print("Output of List 2 = ", output2)
